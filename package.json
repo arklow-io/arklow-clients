@@ -1,0 +1,20 @@
+{
+  "name": "@arklow/repo",
+  "version": "1.0.0",
+  "description": "Arklow Client for NodeJS.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json"
+  },
+  "author": "Arklow, Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^20.4.5",
+    "tslib": "*",
+    "typescript": "^5.1.3"
+  }
+}
