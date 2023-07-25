@@ -1,7 +1,8 @@
 {
   "name": "@arklow/client",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Arklow Client for NodeJS.",
+  "dryrun": true,
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc -p tsconfig.json"
@@ -9,12 +10,12 @@
   "author": "Arklow, Inc.",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "tslib": "*"
   },
   "devDependencies": {
     "@tsconfig/node18": "^1.0.1",
     "@types/node": "^20.4.5",
-    "tslib": "*",
     "typescript": "^5.1.3"
   }
 }
