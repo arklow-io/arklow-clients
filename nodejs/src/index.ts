@@ -1,2 +1,1 @@
-export * as Client from './client/client';
-export * as BatchManager from './client/batch';
+export { default as Client } from "./client";

@@ -2,3 +2,6 @@ examples
 package-lock.json
 src
 node_modules
+test
+jest.config.js
+tsconfig.json

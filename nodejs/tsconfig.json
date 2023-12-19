@@ -1,10 +1,10 @@
 {
     "extends": "@tsconfig/node18/tsconfig.json",
     "compilerOptions": {
-        "target": "ESNEXT",
+        "target": "ESNext",
         "declaration": true,
         "declarationMap": true,
-        "module": "commonjs",
+        "module": "CommonJS",
         "allowJs": true,
         "types": ["node"],
         "moduleResolution": "node",
@@ -14,7 +14,7 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "importHelpers": true,
-        //"esModuleInterop": true,
+        "esModuleInterop": true,
         "sourceMap": true,
         "inlineSources": true,
         "sourceRoot": "/src"
